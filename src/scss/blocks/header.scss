@@ -1,0 +1,20 @@
+.header {
+  position: relative;
+  overflow-x: clip;
+  background-color: #181823;
+  &__top {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 1rem;
+    background-color: #111;
+    box-shadow: 0 0 10px 10px #11111180;
+  }
+
+  &__info {
+    padding: 1rem;
+  }
+}

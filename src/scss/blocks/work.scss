@@ -1,0 +1,12 @@
+.work {
+  margin-bottom: 2rem;
+  &__number {
+    display: block;
+    font-size: 6rem;
+    color: grey;
+  }
+
+  &__job {
+    font-size: 1.3rem;
+  }
+}

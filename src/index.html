@@ -5,10 +5,58 @@
     <!-- PON UN FAVICON!!! -->
     <link rel="icon" type="image/svg+xml" href="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CAMBIA EL TITLE!!! -->
-    <title>Vite Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet" />
+    <title>Portfolio Demo 1</title>
   </head>
   <body>
+    <header class="header">
+      <div class="header__top">
+        <h1 class="logo">John Smith</h1>
+        <div id="hamburger-icon" class="hamburger-icon"></div>
+      </div>
+      <nav>
+        <ul id="menu" class="menu">
+          <li class="menu__item">
+            <a href="#" class="menu__link">Experience</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Work</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <img src="./assets/images/man.jpeg" alt="" />
+      <div class="header__info">
+        <h2 class="title">I'm John Smith. A Web Developer <span class="title--primary"> based in Ireland. </span></h2>
+        <p class="text">
+          I’m probably the most passionate developer you will ever get to work with. If you have a great project that
+          needs some amazing skills, I’m your guy.
+        </p>
+      </div>
+    </header>
+    <main class="main">
+      <h2>WORK EXPERIENCE</h2>
+      <h3>Companies I have worked for in the past.</h3>
+      <article class="work">
+        <span class="work__number">01</span>
+        <span class="work__job">Google, Interaction Developer</span>
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum.</p>
+      </article>
+      <article class="work">
+        <span class="work__number">02</span>
+        <span class="work__job">Google, Interaction Developer</span>
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum.</p>
+      </article>
+      <article class="work">
+        <span class="work__number">03</span>
+        <span class="work__job">Google, Interaction Developer</span>
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum.</p>
+      </article>
+    </main>
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>
